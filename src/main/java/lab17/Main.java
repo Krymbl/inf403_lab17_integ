@@ -19,5 +19,9 @@ public class Main {
                 new CalculateIntegralMiddle(0, Math.PI / 2, new Sinus());
         System.out.println("Подсчет по центру - " + calculateIntegralMiddle.get());
 
+        CalculateIntegralTrapezia calculateIntegralTrapezia =
+                new CalculateIntegralTrapezia(0, Math.PI / 2, new Sinus());
+        System.out.println("Подсчет трапеции - " + calculateIntegralTrapezia.get());
+
     }
 }
